@@ -28,8 +28,8 @@ async def main():
 #     end = time.perf_counter() - start
 #     print(f"Sequential Execution Time: {end:.3f}")
 
-metrics;
-sequential execution took: 6.006 seconds
-concurrent e
+# metrics;
+# sequential execution took: 6.006 seconds
+# concurrent execution took: 2.002 seconds
 
 asyncio.run(main())
