@@ -15,3 +15,6 @@ results = asyncio.run(calculate())
 # 3. How would you obtain the value of 100 correctly?
 # By running the corroutine object in the event loop or in asyncio.run()
 
+# 3.Why might asyncio.run() be appropriate in a standalone script but not inside an already-running FastAPI event loop?
+# this is because the corroutine will be handle automatically by the event loop
+
